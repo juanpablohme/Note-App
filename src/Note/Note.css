@@ -1,0 +1,39 @@
+.Note {
+    background-color: antiquewhite;
+    padding: 20px 0px 20px 5px;
+    color: #000;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.Note .textContainer {
+    display: inline-block;
+    width: 95%;
+}
+
+.Note .spanButton {
+    display: inline-block;
+    height: 100%;
+    align-items: center;
+}
+
+.Note p {
+    display: inline-block;
+    font-size: 25px;
+    width: 100%;
+}
+
+.Note span {
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    background: linear-gradient(to left, #240b36, #c31432);
+    padding: 5px 7px 8px 7px;
+    width: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.Note span:hover {
+    background: linear-gradient(to right, #240b36, #c31432);
+}
